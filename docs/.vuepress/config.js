@@ -3,6 +3,7 @@ import { defaultTheme } from '@vuepress/theme-default';
 import { defineUserConfig } from 'vuepress';
 import { componentsPlugin } from "vuepress-plugin-components";
 export default defineUserConfig({
+  base: '/rmc-doc/',
   locales: {
     '/': {
       lang: 'en-US',
