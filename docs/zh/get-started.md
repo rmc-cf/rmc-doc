@@ -1,15 +1,15 @@
-# Get Started
+# 初次见面
 
-This is a normal page, which contains VuePress basics.
+初次见面，我叫若迷尘，很高兴你能来到我的文档，走进我的知识库，让我们互相分享，一同学习。
 
-## Pages
+## 介绍
 
-You can add markdown files in your vuepress directory, every markdown file will be converted to a page in your site.
+笔者的专业是计算机科学与技术，已获得中级软件设计师，现在想从各个方面学习。
 
 See [routing][] for more details.
 
-## Content
-<SiteInfo name="Mr.Hope's Blog" url="https://mister-hope.com" preview="https://theme-hope.vuejs.press/assets/image/mrhope.jpg" />
+## 网站
+<SiteInfo name="Mr.Hope's Blog" url="https://www.rmcyyds.top" preview="https://theme-hope.vuejs.press/assets/image/mrhope.jpg" />
 Every markdown file [will be rendered to HTML, then converted to a Vue SFC][content].
 
 VuePress support basic markdown syntax and [some extensions][synatex-extensions], you can also [use Vue features][vue-feature] in it.

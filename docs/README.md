@@ -1,7 +1,7 @@
 ---
 home: true
 title: Home
-heroImage: https://vuejs.press/images/hero.png
+heroImage: https://avatars.githubusercontent.com/u/192405856?v=4
 actions:
   - text: Get Started
     link: /get-started.html

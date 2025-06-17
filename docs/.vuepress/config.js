@@ -20,10 +20,28 @@ export default defineUserConfig({
       description: '仅仅只是一点点',
     }
   },
-  theme: defaultTheme({
+ theme: defaultTheme({
     logo: 'https://avatars.githubusercontent.com/u/192405856?v=4',
-
-    navbar: ['/', '/get-started'],
+    locales: {
+      '/': {
+        navbar: [
+          { text: 'Home', link: '/' },
+          { text: 'Get Started', link: '/get-started' },
+          // Add more English navbar items here
+        ],
+        
+        selectLanguageText: 'Languages', 
+      },
+      '/zh/': {
+        navbar: [
+          { text: '首页', link: '/zh/' },
+          { text: '快速开始', link: '/zh/get-started' },
+          // Add more Chinese navbar items here
+        ],
+        
+        selectLanguageText: '语言', 
+      },
+    },
   }),
   bundler: viteBundler(),
   plugins: [
